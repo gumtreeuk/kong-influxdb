@@ -1,0 +1,23 @@
+language: c
+
+sudo: false
+
+env:
+  global:
+    - LUAROCKS=2.3.0
+  matrix:
+    - LUA=Lua-5.2.0
+    - LUA=Lua-5.3.4
+
+before_install:
+  - . .travis/setup.sh
+  - luarocks install busted
+
+install:
+  - luarocks make
+
+script:
+  - ./tests.sh
+
+notifications:
+  email: false

@@ -1,4 +1,4 @@
-# kong-influxdb
+# kong-influxdb [![Build Status](https://travis-ci.org/gumtreeuk/kong-influxdb.svg?branch=master)](https://travis-ci.org/gumtreeuk/kong-influxdb)
 A plugin for Kong to push metrics to InfluxDB
 
 ## Installation
