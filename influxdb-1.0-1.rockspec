@@ -1,10 +1,13 @@
 package = "kong-influxdb"
-version = "1.0-1"
+version = "1.0.0-1"
 source = {
-  url = "https://github.com/gumtreeuk/kong-influxdb"
+  url = "git://github.com/gumtreeuk/kong-influxdb",
+  tag = "1.0.0"
 }
 description = {
-  summary = "A plugin for Kong to push metrics to InfluxDB"
+  summary = "A plugin for Kong to push metrics to InfluxDB",
+  homepage = "https://github.com/gumtreeuk/kong-influxdb",
+  license = "Apache 2.0"
 }
 dependencies = {
 }
